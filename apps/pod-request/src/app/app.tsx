@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import validator from 'validator';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     <div className="Container_1">
       <img
         className="logo"
-        src="../../public/assets/desktop/logo.svg"
+        src="/assets/desktop/logo.svg"
         alt="logo"
       />
       <section className="Container_2">
@@ -32,19 +32,19 @@ function App() {
           and more!
         </p>
         <nav className="nav_bar">
-          <img src="../../public/assets/desktop/spotify.svg" alt="spotify" />
+          <img src="/assets/desktop/spotify.svg" alt="spotify" />
           <img
-            src="../../public/assets/desktop/apple-podcast.svg"
+            src="/assets/desktop/apple-podcast.svg"
             alt="Apple"
             className="ml-10"
           />
           <img
-            src="../../public/assets/desktop/google-podcasts.svg"
+            src="/assets/desktop/google-podcasts.svg"
             alt="Google"
             className="ml-41px"
           />
           <img
-            src="../../public/assets/desktop/pocket-casts.svg"
+            src="/assets/desktop/pocket-casts.svg"
             alt="Pocket"
             className="ml-27px"
           />

@@ -98,7 +98,7 @@ p {
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url(../public/assets/mobile/image-host.jpg);
+    background-image: url(/assets/mobile/image-host.jpg);
     opacity: 0.1;
   }
   .Container_2 {
@@ -126,7 +126,7 @@ p {
     left: 40%;
     right: 0;
     width: 60%;
-    background-image: url(../public/assets/tablet/image-host.jpg);
+    background-image: url(/assets/tablet/image-host.jpg);
   }
   .Container_1::after {
     content: '';
@@ -134,7 +134,7 @@ p {
     height: 100px;
     top: 90%;
     position: absolute;
-    background-image: url(../public/assets/tablet/);
+    background-image: url(/assets/tablet/);
   }
   .logo {
     width: 20%;
@@ -155,11 +155,11 @@ p {
   }
   .Request_Button {
     position: absolute;
-    top: 10%;
-    left: 55%;
+    top: 1%;
+    left: 60%;
     right: 0;
     width: 40%;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0.1em;
   }
   .nav_bar {
     margin-top: 30px;
@@ -179,7 +179,7 @@ p {
   }
 }
 @media (min-width: 1440px) {
-  .Container_1{
+  .Container_1 {
     padding: 130px 160px;
   }
   .Container_1::before {
@@ -188,21 +188,21 @@ p {
     top: 10%;
     right: -20%;
     width: 70%;
-    background-image: url(../public/assets/desktop/image-host.jpg);
+    background-image: url(/assets/desktop/image-host.jpg);
   }
-  .Container_1::after{
+  .Container_1::after {
     position: absolute;
-    background-image: url(../public/assets/desktop/bg-pattern-dots.svg);
+    background-image: url(/assets/desktop/bg-pattern-dots.svg);
     left: 86%;
-    top:70%
+    top: 70%;
   }
-  .Container_2{
+  .Container_2 {
     width: 68.5%;
     height: 460px;
     margin-right: 18%;
     margin-top: 3%;
   }
-  h1{
+  h1 {
     font-size: 50px;
     line-height: 62px;
   }
