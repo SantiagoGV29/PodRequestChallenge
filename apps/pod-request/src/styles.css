@@ -181,10 +181,10 @@ p {
 }
 @media (min-width: 1024px) {
   .Container_1 {
-    padding: 130px 160px;
+   padding-left: 10%;
   }
   .logo{
-    width: 10%;
+    width: 12%;
   }
   .Container_1::before {
     top: 130px;
@@ -201,10 +201,10 @@ p {
     top: 70%;
   }
   .Container_2 {
-    width: 68.5%;
+    width: 55%;
     height: 460px;
     margin-right: 18%;
-    margin-top: 3%;
+    margin-top: 1%;
   }
   h1 {
     font-size: 50px;
