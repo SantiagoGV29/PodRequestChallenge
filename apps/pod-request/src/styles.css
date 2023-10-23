@@ -16,6 +16,7 @@ img {
   display: block;
 }
 
+
 .Container_1::before {
   content: '';
   position:absolute;
@@ -181,9 +182,15 @@ p {
   }
 }
 @media (min-width: 1024px) {
+  /* quitar el scroll de la pagina*/
+  body {
+    overflow: hidden;
+  }
   .Container_1 {
     padding-left: 10%;
+    overflow-y: hidden;
   }
+
   .Container_1::before {
     top: 130px;    
     height: 90%;
