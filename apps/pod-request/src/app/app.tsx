@@ -16,11 +16,7 @@ function App() {
   };
   return (
     <div className="Container_1">
-      <img
-        className="logo"
-        src="/assets/desktop/logo.svg"
-        alt="logo"
-      />
+      <img className="logo" src="/assets/desktop/logo.svg" alt="logo" />
       <section className="Container_2">
         <h1>
           Publish your podcasts
@@ -49,20 +45,23 @@ function App() {
             className="ml-27px"
           />
         </nav>
-      <form className="form">
-        <input
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          type="email"
-          placeholder="Email address"
-        />
-        {error && <span className="error">{message}</span>}
-        <button onClick={handleSubmit} className="Request_Button" type="button">
-          Request Access
-        </button>
-      </form>
+        <div className="form">
+          <input
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            type="email"
+            placeholder="Email address"
+          />
+          {error && <span className="error">{message}</span>}
+          <button
+            onClick={handleSubmit}
+            className="Request_Button"
+            type="button"
+          >
+            Request Access
+          </button>
+        </div>
       </section>
-
     </div>
   );
 }

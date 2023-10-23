@@ -29,7 +29,6 @@ img {
   width: 100%;
   background-color: var(--light-green);
   border-radius: 3em;
-  padding: 1em 1em 1em 1em;
   color: black;
   box-shadow: 0 2em 2em 0.5em hsla(157, 74%, 62%, 0.125);
   font-weight: bold;
@@ -43,7 +42,9 @@ img {
 }
 
 input {
-  padding: 1em 1em 1em 1em;
+  padding-bottom:1em;
+  padding-top:1em;
+  padding-left:3em;
   border-radius: 2em;
   width: 90%;
   margin-top: 1em;
@@ -167,7 +168,7 @@ p {
     order: 3;
   }
   p {
-    width: 75%;
+    width: 67%;
     font-size: 18px;
     line-height: 28px;
     text-align: left;
@@ -181,14 +182,12 @@ p {
 }
 @media (min-width: 1024px) {
   .Container_1 {
-   padding-left: 10%;
-  }
-  .logo{
-    width: 12%;
+    padding-left: 10%;
   }
   .Container_1::before {
-    top: 130px;
-    left: 40%;
+    top: 130px;    
+    height: 90%;
+    left: 43%;
     top: 10%;
     right: -20%;
     width: 70%;
@@ -198,16 +197,26 @@ p {
     position: absolute;
     background-image: url(/assets/desktop/bg-pattern-dots.svg);
     left: 86%;
-    top: 70%;
+    top: 80%;
   }
   .Container_2 {
-    width: 55%;
-    height: 460px;
+    width: 58%;
     margin-right: 18%;
-    margin-top: 1%;
+    margin-top: 6%;
   }
   h1 {
     font-size: 50px;
     line-height: 62px;
+  }
+  .logo{
+    width: 10%;
+  }
+  .form{
+    width: 70%;
+  }
+  .Request_Button{
+    width: 38%;
+    top:6%;
+    padding: 0.7em;
   }
 }
