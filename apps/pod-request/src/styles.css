@@ -16,6 +16,15 @@ img {
   display: block;
 }
 
+.Container_1::before {
+  content: '';
+  position:absolute;
+  background-size: contain;
+  z-index: -1;
+  background-repeat: no-repeat;  
+  background-image: url(/assets/desktop/image-host.jpg);
+}
+
 .Request_Button {
   width: 100%;
   background-color: var(--light-green);
@@ -63,14 +72,6 @@ input::placeholder {
 html {
   font-family: 'Chivo', system-ui, sans-serif;
   background-color: var(--very-dark-blue);
-}
-
-.Container_1::before {
-  content: '';
-  position: absolute;
-  background-size: contain;
-  z-index: -1;
-  background-repeat: no-repeat;
 }
 
 h1 {
@@ -178,9 +179,12 @@ p {
     margin-right: 0px;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .Container_1 {
     padding: 130px 160px;
+  }
+  .logo{
+    width: 10%;
   }
   .Container_1::before {
     top: 130px;
